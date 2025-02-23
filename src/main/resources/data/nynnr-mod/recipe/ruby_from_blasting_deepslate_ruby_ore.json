@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "nynnr-mod:deepslate_ruby_ore"
+  },
+  "result": {
+    "id": "nynnr-mod:ruby"
+  }
+}

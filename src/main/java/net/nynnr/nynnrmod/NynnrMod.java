@@ -2,6 +2,9 @@ package net.nynnr.nynnrmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.nynnr.nynnrmod.block.ModBlocks;
+import net.nynnr.nynnrmod.item.ModItemGroups;
+import net.nynnr.nynnrmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +15,9 @@ public class NynnrMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemsGroups();
 
-		LOGGER.info("Nynnr Mod Initialized");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

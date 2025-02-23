@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "nynnr-mod:raw_ruby_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "nynnr-mod:ruby_ore"
+  }
+}

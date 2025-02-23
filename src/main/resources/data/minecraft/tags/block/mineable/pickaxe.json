@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nynnr-mod:block_of_ruby",
+    "nynnr-mod:raw_ruby_block",
+    "nynnr-mod:ruby_ore",
+    "nynnr-mod:deepslate_ruby_ore"
+  ]
+}
